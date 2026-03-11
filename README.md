@@ -14,12 +14,13 @@
    ```bash
    git clone https://github.com/kononukvladislaus-hub/lab_03_14.git
    cd lab_03_14
-   ```bash
+   ```
 2. Соберите Docker-образ:
    docker build -t rock-paper-scissors .
 3. Запустите игру: docker run -it rock-paper-scissors
 
 # Пример запуска
+```text
 Choose paper, scissors or rock: rock
 Cool choice
 ------------------
@@ -28,3 +29,4 @@ User choice: rock
 Bot_choice: scissors
 Result: win
 ------------------
+```
