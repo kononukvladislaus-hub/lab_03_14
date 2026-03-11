@@ -16,8 +16,13 @@
    cd lab_03_14
    ```
 2. Соберите Docker-образ:
+   ```
    docker build -t rock-paper-scissors .
-3. Запустите игру: docker run -it rock-paper-scissors
+   ```
+3.  Запустите игру:
+   ```
+   docker run -it rock-paper-scissors
+```
 
 # Пример запуска
 ```text
